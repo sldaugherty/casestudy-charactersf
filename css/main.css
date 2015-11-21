@@ -94,14 +94,72 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+img {
+	max-width: 100%
+}
 
+body {
+	font-family: "source sans pro", helvetica, sans-serif;
+	font-weight: 300;
+	color: #505050;
+	margin: 100px 50px;
+}
 
+h1 {
+	font-family: questrial, helvetica;
+	font-weight: 400;
+	font-size: 1.7em
+}
 
+h2 {
+	font-size: 2.4em;
+	font-weight: 200;
+}
 
+.page-header { 
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: white;
+	width: 100%
+}
 
+.page-header h1 {
+	margin: 30px 50px;
+}
 
+.main-nav ul {
+	list-style: none;
+	margin: 0;
+}
 
+.main-nav a {
+	text-decoration: none;
+	color: #505050;
+	display: block;
+	padding-left: 1.5em;
+}
+
+.main-nav a:hover {
+	color: #61CFB5;
+}
+
+.main-nav li {
+	float: left;
+}
+
+.page-header .main-nav {
+	position: absolute;
+	top: 34px;	
+	right: 50px;
+}
 
 
 
