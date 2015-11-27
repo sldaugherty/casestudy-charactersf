@@ -227,7 +227,10 @@ h6 {
 	display: block;
 	float: left;
 	position: relative;
-	border: 3px solid black;
+}
+
+.project-thumb-portrait {
+	float: right;
 }
 
 .project-thumb:hover {
@@ -337,6 +340,8 @@ a.btn:hover {
 .copyright {
 	clear: both;
 }
+
+/* SOCIAL MEDIA */
 
 
 
