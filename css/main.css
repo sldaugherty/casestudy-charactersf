@@ -112,6 +112,10 @@ body {
 	margin: 100px 50px;
 }
 
+p {
+	line-height: 1.9em;
+}
+
 h1 {
 	font-family: questrial, helvetica, sans-serif;
 	font-weight: 400;
@@ -128,7 +132,13 @@ h2 {
 
 h3 {
 	font-size: 1.8em;
-	border: 1px solid red;
+	font-weight: 200;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+h4 {
+	font-size: 1.5em;
 	font-weight: 200;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -180,7 +190,6 @@ h3 {
 }
 
 .jumbotron-content {
-	border: 1px solid blue;
 	padding-top: 5em;
 	padding-bottom: 8em;
 	background: #F2F2F2;
@@ -257,7 +266,48 @@ a.btn:hover {
 	color: black;
 }
 
+.page-section-white {
+	background: white;
+}
 
+.page-article {
+	padding: 0 50px 250px 50px;
+}
+
+.article-col-1-2 {
+	border-top: 1px solid #CECECE;
+	padding-top: 20px;
+	margin-right: 40px;
+	width: 30%;
+	float: left;
+}
+
+.article-col-2-3 {
+	border-top: 1px solid #CECECE;
+	padding-top: 20px;
+	width: 60%;
+	float: left;
+}
+
+.article-category {
+	font-size: 1.2em;
+}
+
+.article-seperator {
+	color: #A5A5A5;
+	font-size: .8em;
+	padding: 5px;
+	position: relative;
+	top: -.2em;
+}
+
+.article-date {
+	color: #A5A5A5;
+}
+
+.page-article p {
+	color: #A5A5A5;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
