@@ -208,7 +208,7 @@ h3 {
 
 /* PROJECT THUMBNAIL SECTION */
 .project-thumb {
-	background-color: none;
+	background: none;
 	width: 50%;
 	display: block;
 	float: left;
