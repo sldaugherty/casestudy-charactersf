@@ -193,14 +193,14 @@ a:hover {
 	font-size: 1.7em;
 	font-weight: 100;
 	position: absolute;
-	top: -7px;
-	right: 0px;
+	top: -8.5px;
+	right: -20px;
 }
 
 .page-header .main-nav {
 	position: absolute;
 	top: 34px;	
-	right: 50px;
+	right: 70px;
 }
 
 .jumbotron-quote {
@@ -248,7 +248,7 @@ a:hover {
 }
 
 .project-thumb:hover {
-	background-color: hsla(0,0%,0%,0.6);
+	background-color: hsla(0,0%,0%,0.7);
 }
 
 .project-thumb img {
@@ -301,6 +301,7 @@ a:hover {
 
 .project-thumb:hover {
 	visibility: visible;
+	transition: all 0.7s ease 0s;
 }
 
 
