@@ -211,7 +211,7 @@ a:hover {
 
 .jumbotron-content {
 	padding-top: 5em;
-	padding-bottom: 8em;
+	padding-bottom: 7em;
 	background: #F2F2F2;
 	overflow: auto;
 }
@@ -223,6 +223,8 @@ a:hover {
 
 .col-1-3-wrap {
 	padding: 0 0 0 60px;
+	overflow: auto;
+	margin-bottom: 1em;
 }
 
 .col-1-3 {
@@ -235,6 +237,7 @@ a:hover {
 }
 
 /* PROJECT THUMBNAIL SECTION */
+
 .project-thumb {
 	background: none;
 	width: 50%;
@@ -304,7 +307,6 @@ a:hover {
 	transition: all 0.7s ease 0s;
 }
 
-
 .btn:hover {
 	background-color: white;
 	color: black;
@@ -313,6 +315,8 @@ a:hover {
 .page-section-white {
 	background: white;
 }
+
+/* NEWS */
 
 .page-article {
 	padding: 0 50px 250px 50px;
@@ -337,7 +341,7 @@ a:hover {
 	font-size: 1.2em;
 }
 
-.article-seperator {
+.article-separator {
 	color: #A5A5A5;
 	font-size: .8em;
 	padding: 5px;
@@ -348,6 +352,12 @@ a:hover {
 .article-date {
 	color: #A5A5A5;
 }
+
+.news-title {
+	color: #505050;
+}
+
+/* FOOTER */
 
 .footer-contact {
 	padding: 50px 15px 50px 0px;
