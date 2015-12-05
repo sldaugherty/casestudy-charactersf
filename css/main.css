@@ -120,15 +120,6 @@ p {
 	line-height: 1.9;
 }
 
-a {
-	text-decoration: none;
-	color: #A5A5A5;
-}
-
-a:hover {
-	color: #61CFB5;
-}
-
 /* HEADS */
 
 h1 {
@@ -192,6 +183,15 @@ h6 {
 
 .main-nav li {
 	float: left;
+}
+
+a {
+	text-decoration: none;
+	color: #A5A5A5;
+}
+
+a:hover {
+	color: #61CFB5;
 }
 
 .plus {
