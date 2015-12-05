@@ -94,6 +94,9 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+/* UNIVERSALS */
+
 html {
   box-sizing: border-box;
 }
@@ -114,8 +117,19 @@ body {
 
 p {
 	color: #A5A5A5;
-	line-height: 1.9em;
+	line-height: 1.9;
 }
+
+a {
+	text-decoration: none;
+	color: #A5A5A5;
+}
+
+a:hover {
+	color: #61CFB5;
+}
+
+/* HEADS */
 
 h1 {
 	font-family: questrial, helvetica, sans-serif;
@@ -150,6 +164,7 @@ h6 {
 	margin: 0 0 5px 0;
 }
 
+/* HEADER */
 .page-header { 
 	position: fixed;
 	top: 0px;
@@ -173,15 +188,6 @@ h6 {
 	color: #505050;
 	display: block;
 	padding-left: 1.5em;
-}
-
-a {
-	text-decoration: none;
-	color: #A5A5A5;
-}
-
-a:hover {
-	color: #61CFB5;
 }
 
 .main-nav li {
@@ -282,7 +288,7 @@ a:hover {
 	font-size: .9em;
 	font-weight: 600;
 	letter-spacing: .06em;
-	line-height: 1em;
+	line-height: 1;
 	color: white;
 	border: 2px solid white;
 	width: 40%;
@@ -302,21 +308,21 @@ a:hover {
 	visibility: hidden;
 }
 
-.project-thumb:hover {
-	visibility: visible;
-	transition: all 0.7s ease 0s;
-}
-
 .btn:hover {
 	background-color: white;
 	color: black;
+}
+
+.project-thumb:hover {
+	visibility: visible;
+	transition: all 0.7s ease 0s;
 }
 
 .page-section-white {
 	background: white;
 }
 
-/* NEWS */
+/* ARTICLES */
 
 .page-article {
 	padding: 0 50px 250px 50px;
@@ -366,7 +372,7 @@ a:hover {
 
 .footer-contact p {
 	font-size: .9em;
-	line-height: 1.4em;
+	line-height: 1.4;
 	margin: 0;
 }
 
